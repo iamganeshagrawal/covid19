@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap');
+body{
+    background-color: #E8EBF0;
+    /* background-color: white; */
+
+}
+.header{
+    background-color: white;
+    text-align: center;
+    /* border-bottom: solid 1px #bdbdbd; */
+    margin-bottom: 1rem;
+    padding: 0.3rem 0rem 0.2rem;
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+.header h1{
+    
+    font-weight: 600;
+    font-family: 'Baloo 2', cursive;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+.header h1 span{
+    color: red;
+}
+
+.footer{
+    text-align: center;
+    margin-bottom: 20px !important;
+}
+
+
+.heart {
+    background-color: red;
+    display: inline-block;
+    height: 30px;
+    /* margin: 0 10px; */
+    position: relative;
+    top: 0.6rem;
+    transform: rotate(-45deg) scale(0.4);
+    width: 30px;
+  }
+  
+  .heart:before,
+  .heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 30px;
+    position: absolute;
+    width: 30px;
+  }
+  
+  .heart:before {
+    top: -15px;
+    left: 0;
+  }
+  
+  .heart:after {
+    left: 15px;
+    top: 0;
+  }

@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500&display=swap');
+h5#title{
+    font-family: 'Baloo 2', cursive;
+    text-transform: uppercase;
+    text-align: center;
+}
+p#datetime{
+    font-size: 0.75rem;
+    text-align: center;
+}
