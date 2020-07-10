@@ -1,3 +1,20 @@
+# Covid 19 Updates Web App
+
+Hello everyone,
+
+I was created this app for showing covid-19 live stats from various api and visuallize that data on pie charts. You can check out live preview at [https://covid19.ganeshagrawal.com](https://covid19.ganeshagrawal.com)
+
+### Tech Stack
+- ReactJS
+- Covid-19 API
+- Netlify
+
+---
+
+:heart: Special thnaks to [@mathdroid](https://github.com/mathdroid) for providing us Covid-19 API. 
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
